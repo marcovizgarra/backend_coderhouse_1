@@ -1,4 +1,3 @@
-import { Router } from 'express';
 import express from 'express';
 
 const router = express.Router();
@@ -9,6 +8,10 @@ router.get('/', (request, response) => {
 
 router.get('views/home', (request, response) => {
     response.render('home', {})
+});
+
+router.get('views/real-time-products', (request, response) => {
+    response.render('realtimeProducts', {})
 });
 
 export default router;

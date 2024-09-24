@@ -1,0 +1,16 @@
+<h1>Alta y baja de productos</h1>
+
+{{#each products}}
+    <br><br>
+    <h2>{{title}}</h2>
+    <br>
+    <p>{{description}}</p>
+    <p>Lanzando en {{year}}</p>
+    <p>A tan solo ${{price}}</p>
+    <p>Stock disponible: {{stock}} unidades</p>
+    <button type="button" class="eliminarProducto">Eliminar producto</button>
+{{/each}}
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js" type="text/javascript"></script>
+<script src="../js/index.js" type="javascript"></script>
