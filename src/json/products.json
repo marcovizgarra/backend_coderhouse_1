@@ -1,1 +1,38 @@
-[]
+[
+    {
+        "title": "Red Dead Redemption",
+        "year": 2004,
+        "genre": "Sandbox",
+        "producer": "Rockstar Games",
+        "platform": "PS4"
+    },
+    {
+        "title": "Red Dead Redemption II",
+        "year": 2018,
+        "genre": "Sandbox",
+        "producer":"Rockstar Games",
+        "platform": "PS4"
+    },
+    {
+        "title": "GTA V",
+        "year": 2013,
+        "genre": "Sandbox",
+        "producer": "Rockstar Games",
+        "platform": "PS4"
+
+    },
+    {
+        "title": "Horizon Zero Dawn",
+        "year": 2017,
+        "genre": "Adventures",
+        "producer": "Guerrilla Games",
+        "platform": "PS4"
+    },
+    {
+        "title": "Horizon Forbbiden West",
+        "year": 2022,
+        "genre": "Adventures",
+        "producer":"Guerrilla Games",
+        "platform": "PS5"
+    }
+]
