@@ -1,42 +1,24 @@
 [
   {
-    "id": "product-604352",
+    "id": "product-17052",
     "status": true,
-    "title": "God of War Ascension",
-    "description": "Video juego hack and slash",
-    "code": "PS30052315H",
-    "price": "3000",
-    "stock": "20",
-    "category": "PS3"
+    "title": "Red Dead Redemption II",
+    "description": "Juego de mundo abierto con temática de vaqueros, ultra realista. Diseñado por Rockstar Games",
+    "year": "2018",
+    "code": "PS40012548N",
+    "price": "55000",
+    "stock": "40",
+    "category": "videojuego"
   },
   {
-    "id": "product-940074",
+    "id": "product-929425",
     "status": true,
-    "title": "God of War Ascension",
-    "description": "Video juego hack and slash",
-    "code": "PS30052315H",
-    "price": "3000",
-    "stock": "20",
-    "category": "PS3"
-  },
-  {
-    "id": "product-634921",
-    "status": true,
-    "title": "God of War Ascension",
-    "description": "Video juego hack and slash",
-    "code": "PS30052315H",
-    "price": "3000",
-    "stock": "20",
-    "category": "PS3"
-  },
-  {
-    "id": "product-831890",
-    "status": true,
-    "title": "God of War Ascension",
-    "description": "Video juego hack and slash",
-    "code": "PS30052315H",
-    "price": "3000",
-    "stock": "20",
-    "category": "PS3"
+    "title": "Skyrim",
+    "description": "Juego de mundo abierto ambientado en era de dragones",
+    "year": "2011",
+    "code": "PS300015156U",
+    "price": "2500",
+    "stock": "10",
+    "category": "videojuego"
   }
 ]

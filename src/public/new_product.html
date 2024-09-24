@@ -7,13 +7,18 @@
 </head>
 <body>
     <h1>Alta de productos</h1>
+    <h2>Videojuegos</h2>
     <form action="/api/products" method="POST">
-        <label for="title">Nombre del producto</label>
+        <label for="title">Título</label>
         <input type="text" name="title" id="title" required>
 
         <br>
         <label for="description">Descripción</label>
         <input type="text" name="description" id="description" required>
+
+        <br>
+        <label for="year">Año de lanzamiento</label>        
+        <input type="number" name="year" id="year">
 
         <br>
         <label for="code">Código de producto</label>

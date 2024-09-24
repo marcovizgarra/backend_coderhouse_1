@@ -1,0 +1,19 @@
+<h1>Catálogo de productos</h1>
+<p id="catalogo_productos"></p>
+
+{{#each products}}
+    <br><br>
+    <h2>{{title}}</h2>
+    <br>
+    <p>{{description}}</p>
+    <p>Lanzando en {{year}}</p>
+    <p>A tan solo ${{price}}</p>
+    <p>Stock disponible: {{stock}} unidades</p>
+{{/each}}
+
+{{!-- <h2>{{title}}</h2>
+<p>{{description}}</p> --}}
+
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js" type="text/javascript"></script>

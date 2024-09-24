@@ -4,6 +4,7 @@ import express from 'express';
 import handlebars from 'express-handlebars';
 import __dirname from './utils.js'
 import viewsRouter from './routes/views.router.js';
+import homeRouter from './routes/home.router.js';
 
 const app = express();
 const httpServer = app.listen(8080, () => {
@@ -11,6 +12,7 @@ const httpServer = app.listen(8080, () => {
 })
 
 app.use('/', viewsRouter)
+app.use('/home', homeRouter)
 
 // Iniciando socket dentro del servidor HTTP
 const io = new Server(httpServer);
