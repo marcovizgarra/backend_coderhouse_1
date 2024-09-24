@@ -1,38 +1,42 @@
 [
-    {
-        "title": "Red Dead Redemption",
-        "year": 2004,
-        "genre": "Sandbox",
-        "producer": "Rockstar Games",
-        "platform": "PS4"
-    },
-    {
-        "title": "Red Dead Redemption II",
-        "year": 2018,
-        "genre": "Sandbox",
-        "producer":"Rockstar Games",
-        "platform": "PS4"
-    },
-    {
-        "title": "GTA V",
-        "year": 2013,
-        "genre": "Sandbox",
-        "producer": "Rockstar Games",
-        "platform": "PS4"
-
-    },
-    {
-        "title": "Horizon Zero Dawn",
-        "year": 2017,
-        "genre": "Adventures",
-        "producer": "Guerrilla Games",
-        "platform": "PS4"
-    },
-    {
-        "title": "Horizon Forbbiden West",
-        "year": 2022,
-        "genre": "Adventures",
-        "producer":"Guerrilla Games",
-        "platform": "PS5"
-    }
+  {
+    "id": "product-604352",
+    "status": true,
+    "title": "God of War Ascension",
+    "description": "Video juego hack and slash",
+    "code": "PS30052315H",
+    "price": "3000",
+    "stock": "20",
+    "category": "PS3"
+  },
+  {
+    "id": "product-940074",
+    "status": true,
+    "title": "God of War Ascension",
+    "description": "Video juego hack and slash",
+    "code": "PS30052315H",
+    "price": "3000",
+    "stock": "20",
+    "category": "PS3"
+  },
+  {
+    "id": "product-634921",
+    "status": true,
+    "title": "God of War Ascension",
+    "description": "Video juego hack and slash",
+    "code": "PS30052315H",
+    "price": "3000",
+    "stock": "20",
+    "category": "PS3"
+  },
+  {
+    "id": "product-831890",
+    "status": true,
+    "title": "God of War Ascension",
+    "description": "Video juego hack and slash",
+    "code": "PS30052315H",
+    "price": "3000",
+    "stock": "20",
+    "category": "PS3"
+  }
 ]

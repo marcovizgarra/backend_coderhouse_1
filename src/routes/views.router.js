@@ -7,7 +7,7 @@ router.get('/', (request, response) => {
 });
 
 router.get('/home', (request, response) => {
-    response.render('layouts/home', {})
+    response.render('layouts/home', { layout: false })
 });
 
 export default router;
