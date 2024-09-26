@@ -1,5 +1,5 @@
 import { Router } from "express";
-import products from '../json/products.json'  assert { type: "json" };
+import products from '../json/products.json' with { type: "json" };
 
 const realTimeProductsRouter = Router();
 

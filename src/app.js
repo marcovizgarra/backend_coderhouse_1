@@ -35,7 +35,7 @@ app.use('/api/cart', cartRouter);
 
 // Declarar carpeta public como directorio de archivos estáticos
 const publicPath = path.join(__dirname, '/public');
-app.use('/static/', express.static(path.join(publicPath)));
+app.use(express.static(path.join(publicPath)));
 
 io.on('connection', socket => {
     console.log('Cliente conectado');
