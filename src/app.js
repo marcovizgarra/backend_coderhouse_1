@@ -39,4 +39,11 @@ app.use(express.static(path.join(publicPath)));
 
 io.on('connection', socket => {
     console.log('Cliente conectado');
-})
+   
+    socket.on('elminarProducto', (data) => {
+      
+      let productoEliminado = 'El producto con código ' + data.id + ' ha sido eliminado';
+
+      socket.emit('productoEliminado', {itemElminado: productoEliminado})
+    })
+});

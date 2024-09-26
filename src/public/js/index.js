@@ -1,12 +1,23 @@
 const socket = io();
-import { eliminarProducto } from "./functions";
+
+const eliminarProducto = (array, id) => {
+    array.filter(object => object.id !== id);
+};
 
 let btnsEliminar = document.querySelectorAll('.eliminarProducto');
 
 btnsEliminar.forEach((btn) => {
     btn.addEventListener('click', () => {
-        console.log(btn.id)
-        eliminarProducto(productos, btn.id)
-        // socket.emit('eliminarProducto')
+        let productId = btn.id 
+        socket.emit('elminarProducto', { id: productId })
     })
 });
+
+socket.on('productoEliminado', (data) => {
+    let logContainer = document.getElementById('logContainer');
+    let p = document.createElement('p');
+    let deleteLog = data.itemElminado;
+    p.textContent = deleteLog;
+    logContainer.appendChild(p);
+
+})

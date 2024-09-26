@@ -20,5 +20,16 @@
     "price": "2500",
     "stock": "10",
     "category": "videojuego"
+  },
+  {
+    "id": "product-883487",
+    "status": true,
+    "title": "God of War",
+    "description": "Reinicio de la saga God of War, ambientado en la mitología nórdica",
+    "year": "2018",
+    "code": "PS4ASV0000N",
+    "price": "25000",
+    "stock": "15",
+    "category": "videojuego"
   }
 ]
